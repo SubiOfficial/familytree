@@ -30,7 +30,7 @@ export default function SingleCard({ node, style, onUpdatePerson, onUpdateGender
       data-id={node.id}
       style={style}
       onContextMenu={(e) => onContextMenu?.(node.id, e)}
-      onClick={(e) => { if (!e.target.closest('button') && !e.target.closest('.drag-handle') && !e.target.closest('.nm')) onFocusNode?.(node.id); }}
+      onClick={(e) => { if (!node.isFocused && !e.target.closest('button') && !e.target.closest('.drag-handle') && !e.target.closest('.nm')) onFocusNode?.(node.id); }}
     >
       <GenderBadge gender={node.gender} />
       <div className="card-topbar">

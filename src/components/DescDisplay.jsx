@@ -7,7 +7,7 @@ export default function DescDisplay({ desc }) {
   const hasBoth = hasEn && hasTa;
 
   return (
-    <div className="card-desc-expanded">
+    <div className="card-desc-expanded" onClick={(e) => e.stopPropagation()} onMouseDown={(e) => e.stopPropagation()}>
       {hasBoth && (
         <div className="desc-tabs">
           <button className={`desc-tab ${lang === 'en' ? 'active' : ''}`} onClick={(e) => { e.stopPropagation(); setLang('en'); }}>EN</button>
