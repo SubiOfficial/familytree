@@ -14,7 +14,10 @@ const COLORS = [
 
 export default function ContextMenu({ x, y, node, groups, onClose, onDelete, onEdit, onSetColor, onSetDescription, onSetGroup, onSetGeneration }) {
   const [sub, setSub] = useState(null);
-  const [desc, setDesc] = useState(node.description || '');
+  const existing = typeof node.description === 'object' && node.description ? node.description : { en: node.description || '', ta: '' };
+  const [descEn, setDescEn] = useState(existing.en);
+  const [descTa, setDescTa] = useState(existing.ta);
+  const [descTab, setDescTab] = useState('en');
   const [groupName, setGroupName] = useState('');
   const colorRef = useRef(null);
 
@@ -27,7 +30,7 @@ export default function ContextMenu({ x, y, node, groups, onClose, onDelete, onE
   }, [sub, node.id, onSetColor, onClose]);
 
   const handleDescSave = () => {
-    onSetDescription(node.id, desc);
+    onSetDescription(node.id, { en: descEn, ta: descTa });
     onClose();
   };
 
@@ -52,10 +55,10 @@ export default function ContextMenu({ x, y, node, groups, onClose, onDelete, onE
             <button className="ctx-item" onClick={() => { onEdit(node.id); onClose(); }}>Edit Name</button>
             <button className="ctx-item" onClick={() => { onDelete(node.id); onClose(); }}>Delete</button>
             <button className="ctx-item" onClick={() => setSub('color')}>Color</button>
-            {node.description ? (
+            {(existing.en || existing.ta) ? (
               <>
                 <button className="ctx-item" onClick={() => setSub('desc')}>Edit Description</button>
-                <button className="ctx-item ctx-danger" onClick={() => { onSetDescription(node.id, ''); onClose(); }}>Delete Description</button>
+                <button className="ctx-item ctx-danger" onClick={() => { onSetDescription(node.id, { en: '', ta: '' }); onClose(); }}>Delete Description</button>
               </>
             ) : (
               <button className="ctx-item" onClick={() => setSub('desc')}>Add Description</button>
@@ -99,14 +102,30 @@ export default function ContextMenu({ x, y, node, groups, onClose, onDelete, onE
               <button className="ctx-back" onClick={() => setSub(null)}>&larr;</button>
               <span>Description</span>
             </div>
-            <textarea
-              className="ctx-textarea"
-              value={desc}
-              onChange={(e) => setDesc(e.target.value)}
-              placeholder="Add a description..."
-              rows={3}
-              autoFocus
-            />
+            <div className="ctx-desc-tabs">
+              <button className={`ctx-desc-tab ${descTab === 'en' ? 'active' : ''}`} onClick={() => setDescTab('en')}>English</button>
+              <button className={`ctx-desc-tab ${descTab === 'ta' ? 'active' : ''}`} onClick={() => setDescTab('ta')}>தமிழ்</button>
+            </div>
+            {descTab === 'en' && (
+              <textarea
+                className="ctx-textarea"
+                value={descEn}
+                onChange={(e) => setDescEn(e.target.value)}
+                placeholder="Add description in English..."
+                rows={3}
+                autoFocus
+              />
+            )}
+            {descTab === 'ta' && (
+              <textarea
+                className="ctx-textarea"
+                value={descTa}
+                onChange={(e) => setDescTa(e.target.value)}
+                placeholder="தமிழில் விவரணை சேர்க்கவும்..."
+                rows={3}
+                autoFocus
+              />
+            )}
             <button className="ctx-item ctx-save" onClick={handleDescSave}>Save</button>
           </>
         )}

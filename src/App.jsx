@@ -6,8 +6,6 @@ import ContextMenu from './components/ContextMenu.jsx';
 import GenerationDialog from './components/GenerationDialog.jsx';
 import { formatGen } from './components/GenerationDialog.jsx';
 import Header from './components/Header.jsx';
-import ListView from './components/ListView.jsx';
-import BookView from './components/BookView.jsx';
 import TableView from './components/TableView.jsx';
 import { initialNodes } from './data.js';
 
@@ -345,8 +343,6 @@ export default function App() {
         activeGen={activeGen}
         onGenFilter={setActiveGen}
       />
-      {viewMode === 'list' && <ListView nodes={activeGen ? visibleNodes : nodes} generations={generations} />}
-      {viewMode === 'book' && <BookView nodes={activeGen ? visibleNodes : nodes} generations={generations} />}
       {viewMode === 'table' && <TableView nodes={activeGen ? visibleNodes : nodes} generations={generations} />}
       {viewMode === 'canvas' && <main
         className="canvas"

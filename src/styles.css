@@ -319,10 +319,12 @@ body.panning * {
 
 /* ---------- Table view ---------- */
 .table-view {
-  padding: 68px 24px 24px;
-  min-height: 100vh;
+  position: fixed;
+  inset: 0;
+  top: 48px;
   background: var(--bg);
-  overflow-x: auto;
+  overflow: auto;
+  padding: 20px 24px 40px;
 }
 
 .tv-table {
@@ -805,6 +807,13 @@ body.panning * {
   transition: box-shadow .2s;
 }
 
+.card-desc-ta {
+  font-size: 11px;
+  color: #6b5c4c;
+  margin-top: 3px;
+  opacity: .8;
+}
+
 .card-desc-expanded {
   font-size: 12px;
   color: var(--muted);
@@ -1224,6 +1233,32 @@ body.panning * {
   cursor: pointer;
   border: none;
   padding: 0;
+}
+
+.ctx-desc-tabs {
+  display: flex;
+  gap: 0;
+  margin: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ctx-desc-tab {
+  flex: 1;
+  padding: 6px 10px;
+  border: none;
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 12px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ctx-desc-tab.active {
+  background: #4338ca;
+  color: #fff;
 }
 
 .ctx-textarea {

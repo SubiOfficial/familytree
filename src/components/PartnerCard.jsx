@@ -48,9 +48,15 @@ export default function PartnerCard({ node, style, onUpdatePerson, onUpdateGende
           </Fragment>
         ))}
       </div>
-      {node.isFocused && node.description && (
-        <div className="card-desc-expanded">{node.description}</div>
-      )}
+      {node.isFocused && node.description && (() => {
+        const d = typeof node.description === 'object' ? node.description : { en: node.description, ta: '' };
+        return (d.en || d.ta) ? (
+          <div className="card-desc-expanded">
+            {d.en && <div>{d.en}</div>}
+            {d.ta && <div className="card-desc-ta">{d.ta}</div>}
+          </div>
+        ) : null;
+      })()}
       {node.isFocused && node.group && (
         <div className="card-details">
           {node.group && <span className="detail-tag">Group: {node.group}</span>}

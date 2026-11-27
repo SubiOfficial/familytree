@@ -2,8 +2,6 @@ import { useState } from 'react';
 
 const VIEWS = [
   { key: 'canvas', label: 'Canvas', icon: '⊞' },
-  { key: 'list', label: 'List View', icon: '☰' },
-  { key: 'book', label: 'Book View', icon: '📖' },
   { key: 'table', label: 'Table View', icon: '▦' },
 ];
 
