@@ -28,13 +28,19 @@ const PRESETS = [
   '#f3e8ff', '#ffedd5', '#fee2e2', '#ccfbf1',
 ];
 
-export default function GenerationDialog({ node, generations, onSave, onClose }) {
+export default function GenerationDialog({ node, generations, allNodes, onSave, onClose }) {
   const existing = node.generationId ? generations.find(g => g.id === node.generationId) : null;
   const [format, setFormat] = useState(existing?.format || 'numeric');
   const [selectedGenId, setSelectedGenId] = useState(existing?.id || null);
   const [createNew, setCreateNew] = useState(!existing);
   const [color, setColor] = useState(existing?.color || '#d4a574');
   const [hexInput, setHexInput] = useState(existing?.color || '#d4a574');
+  const siblings = node.parentId ? allNodes.filter(n => n.parentId === node.parentId) : [node];
+  const [selectedNodeIds, setSelectedNodeIds] = useState(siblings.map(n => n.id));
+
+  const toggleNode = (id) => {
+    setSelectedNodeIds(prev => prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]);
+  };
 
   const nextNumber = generations.length > 0 ? Math.max(...generations.map(g => g.number)) + 1 : 1;
 
@@ -51,10 +57,10 @@ export default function GenerationDialog({ node, generations, onSave, onClose })
 
   const handleSave = () => {
     if (createNew) {
-      onSave({ id: Date.now(), number: nextNumber, format, color }, true);
+      onSave({ id: Date.now(), number: nextNumber, format, color }, true, selectedNodeIds);
     } else if (selectedGenId) {
       const gen = generations.find(g => g.id === selectedGenId);
-      onSave({ ...gen, format, color }, false);
+      onSave({ ...gen, format, color }, false, selectedNodeIds);
     }
     onClose();
   };
@@ -141,6 +147,23 @@ export default function GenerationDialog({ node, generations, onSave, onClose })
               placeholder="#d4a574"
               maxLength={7}
             />
+          </div>
+        </div>
+
+        <div className="gen-section">
+          <label className="gen-label">Apply to Nodes</label>
+          <div className="gen-node-list">
+            {allNodes.map(n => {
+              const name = n.people.map(p => p.name).join(' & ');
+              const isSibling = siblings.some(s => s.id === n.id);
+              return (
+                <label key={n.id} className={`gen-node-item ${isSibling ? 'sibling' : ''}`}>
+                  <input type="checkbox" checked={selectedNodeIds.includes(n.id)} onChange={() => toggleNode(n.id)} />
+                  <span>{name}</span>
+                  {isSibling && <span className="gen-sibling-tag">sibling</span>}
+                </label>
+              );
+            })}
           </div>
         </div>
 

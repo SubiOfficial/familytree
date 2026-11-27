@@ -5,6 +5,10 @@ import PartnerCard from './components/PartnerCard.jsx';
 import ContextMenu from './components/ContextMenu.jsx';
 import GenerationDialog from './components/GenerationDialog.jsx';
 import { formatGen } from './components/GenerationDialog.jsx';
+import Header from './components/Header.jsx';
+import ListView from './components/ListView.jsx';
+import BookView from './components/BookView.jsx';
+import TableView from './components/TableView.jsx';
 import { initialNodes } from './data.js';
 
 let nextId = 100;
@@ -79,6 +83,8 @@ export default function App() {
   const [nodes, setNodes] = useState(loadNodes);
   const [generations, setGenerations] = useState(loadGenerations);
   const [genDialogNodeId, setGenDialogNodeId] = useState(null);
+  const [viewMode, setViewMode] = useState('canvas');
+  const [activeGen, setActiveGen] = useState(null);
   const readyToSave = useRef(false);
 
   useEffect(() => {
@@ -308,7 +314,13 @@ export default function App() {
     return isHidden(parent.id);
   };
 
-  const visibleNodes = nodes.filter(n => !isHidden(n.id));
+  const unhiddenNodes = nodes.filter(n => !isHidden(n.id));
+  const visibleNodes = activeGen
+    ? unhiddenNodes.filter(n => {
+        const gen = n.generationId ? generations.find(g => g.id === n.generationId) : null;
+        return gen && gen.number === activeGen;
+      })
+    : unhiddenNodes;
 
   const lines = [];
   for (const node of visibleNodes) {
@@ -320,10 +332,23 @@ export default function App() {
 
   const ctxNode = ctxMenu ? nodes.find(n => n.id === ctxMenu.id) : null;
 
+  const treeName = nodes.find(n => n.isRoot)?.people[0]?.name || 'Family Tree';
+
   return (
     <>
       <IconSprite />
-      <main
+      <Header
+        treeName={`${treeName} Family Tree`}
+        viewMode={viewMode}
+        onViewChange={setViewMode}
+        generations={generations}
+        activeGen={activeGen}
+        onGenFilter={setActiveGen}
+      />
+      {viewMode === 'list' && <ListView nodes={activeGen ? visibleNodes : nodes} generations={generations} />}
+      {viewMode === 'book' && <BookView nodes={activeGen ? visibleNodes : nodes} generations={generations} />}
+      {viewMode === 'table' && <TableView nodes={activeGen ? visibleNodes : nodes} generations={generations} />}
+      {viewMode === 'canvas' && <main
         className="canvas"
         style={{ backgroundPosition: `${pan.x}px ${pan.y}px` }}
         onMouseDown={handleCanvasMouseDown}
@@ -388,7 +413,7 @@ export default function App() {
             );
           })}
         </div>
-      </main>
+      </main>}
       {ctxNode && (
         <ContextMenu
           x={ctxMenu.x}
@@ -411,15 +436,15 @@ export default function App() {
           <GenerationDialog
             node={targetNode}
             generations={generations}
+            allNodes={nodes}
             onClose={() => setGenDialogNodeId(null)}
-            onSave={(gen, isNew) => {
+            onSave={(gen, isNew, selectedIds) => {
               const updatedGens = isNew
                 ? [...generations, gen]
                 : generations.map(g => g.id === gen.id ? gen : g);
               setGenerations(updatedGens);
-              const parentId = targetNode.parentId;
               setNodes(ns => ns.map(n => {
-                if (n.id === targetNode.id || (parentId != null && n.parentId === parentId)) {
+                if (selectedIds.includes(n.id)) {
                   return { ...n, generationId: gen.id };
                 }
                 return n;
