@@ -373,6 +373,94 @@ body.panning * {
 .tv-male { color: #5b8f66; }
 .tv-female { color: #b05478; }
 
+.tv-clickable { cursor: pointer; color: #4338ca; }
+.tv-clickable:hover { text-decoration: underline; }
+
+.tv-row-active td { border-bottom-color: transparent; }
+
+.tv-detail-row td { padding: 0 !important; border-bottom: 1px solid var(--border); }
+
+.tv-detail {
+  padding: 16px 20px;
+}
+
+.tv-detail-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.tv-detail-avatar {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.tv-detail-avatar img { width: 40px; height: 40px; border-radius: 50%; object-fit: cover; }
+
+.tv-detail-name { font-size: 16px; font-weight: 700; color: var(--ink); }
+.tv-detail-partner { font-size: 12px; color: var(--heart); }
+
+.tv-detail-gen {
+  margin-left: auto;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #5a4a3a;
+}
+
+.tv-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.tv-detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.tv-detail-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.tv-detail-value { font-size: 13px; color: var(--ink); }
+
+.tv-detail-desc { margin-bottom: 10px; }
+.tv-detail-desc p { margin: 4px 0 0; font-size: 13px; color: var(--ink); font-style: italic; }
+
+.tv-detail-children { margin-top: 4px; }
+
+.tv-detail-child-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.tv-detail-child-tag {
+  padding: 3px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: 11px;
+  color: #4338ca;
+  cursor: pointer;
+  background: var(--card);
+}
+
+.tv-detail-child-tag:hover { background: #eef2ff; border-color: #c7d2fe; }
+
 /* ---------- Gen node multi-select ---------- */
 .gen-node-list {
   max-height: 150px;
