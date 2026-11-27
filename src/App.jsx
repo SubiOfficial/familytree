@@ -381,7 +381,7 @@ export default function App() {
             const genColor = gen?.color || null;
             const genLabel = gen ? `Gen ${formatGen(gen.number, gen.format)}` : null;
             const cardNode = { ...node, childCount, isFocused, isBlurred, nearEdges, genLabel, genColor };
-            const cardBg = node.color || (genColor ? genColor + '25' : undefined);
+            const cardBg = node.color || (genColor ? `color-mix(in srgb, ${genColor} 15%, white)` : undefined);
             const rootColor = node.isRoot && node.color ? node.color : undefined;
             const edgeShadows = [];
             if (nearEdges) {
