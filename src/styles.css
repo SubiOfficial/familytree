@@ -394,6 +394,249 @@ body.panning * {
   border: 1px solid #c7d2fe;
 }
 
+/* ---------- Generation badge ---------- */
+.gen-badge {
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 9px;
+  font-weight: 600;
+  color: #6b5c4c;
+  white-space: nowrap;
+  z-index: 3;
+  border: 1px solid;
+}
+
+/* ---------- Generation dialog ---------- */
+.gen-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(0, 0, 0, .2);
+  display: grid;
+  place-items: center;
+}
+
+.gen-dialog {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, .15);
+  padding: 20px 24px;
+  min-width: 340px;
+  max-width: 400px;
+  max-height: 80vh;
+  overflow-y: auto;
+  font-family: inherit;
+}
+
+.gen-title {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.gen-section {
+  margin-bottom: 14px;
+}
+
+.gen-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+}
+
+.gen-formats {
+  display: flex;
+  gap: 6px;
+}
+
+.gen-format-btn {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: center;
+}
+
+.gen-format-btn.active {
+  background: #4338ca;
+  color: #fff;
+  border-color: #4338ca;
+}
+
+.gen-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  max-height: 140px;
+  overflow-y: auto;
+}
+
+.gen-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: none;
+  color: var(--ink);
+  font-size: 12px;
+  font-family: inherit;
+  cursor: pointer;
+  text-align: left;
+}
+
+.gen-option:hover {
+  background: color-mix(in srgb, var(--ink) 4%, transparent);
+}
+
+.gen-option.active {
+  border-color: #4338ca;
+  background: #eef2ff;
+  color: #4338ca;
+  font-weight: 600;
+}
+
+.gen-option-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.gen-colors {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.gen-swatch {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  cursor: pointer;
+  padding: 0;
+}
+
+.gen-swatch:hover { border-color: var(--muted); }
+.gen-swatch.active { border-color: #4338ca; box-shadow: 0 0 0 2px #c7d2fe; }
+
+.gen-custom-swatch {
+  position: relative;
+  display: grid;
+  place-items: center;
+  font-size: 14px;
+  color: var(--muted);
+  background: var(--bg) !important;
+}
+
+.gen-custom-swatch input[type="color"] {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.gen-hex-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.gen-hex-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.gen-hex-input {
+  flex: 1;
+  padding: 4px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  font-size: 12px;
+  font-family: monospace;
+  color: var(--ink);
+  background: var(--bg);
+  outline: none;
+  max-width: 100px;
+}
+
+.gen-hex-input:focus { border-color: #a5b4fc; }
+
+.gen-preview {
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.gen-preview-badge {
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.gen-preview-text {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.gen-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.gen-btn {
+  padding: 8px 18px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid var(--border);
+}
+
+.gen-cancel {
+  background: var(--bg);
+  color: var(--muted);
+}
+
+.gen-save {
+  background: #4338ca;
+  color: #fff;
+  border-color: #4338ca;
+}
+
+.gen-save:hover { background: #3730a3; }
+
 /* ---------- Context menu ---------- */
 .ctx-overlay {
   position: fixed;

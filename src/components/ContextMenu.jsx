@@ -12,7 +12,7 @@ const COLORS = [
   { label: 'Teal', value: '#ccfbf1' },
 ];
 
-export default function ContextMenu({ x, y, node, groups, onClose, onDelete, onEdit, onSetColor, onSetDescription, onSetGroup }) {
+export default function ContextMenu({ x, y, node, groups, onClose, onDelete, onEdit, onSetColor, onSetDescription, onSetGroup, onSetGeneration }) {
   const [sub, setSub] = useState(null);
   const [desc, setDesc] = useState(node.description || '');
   const [groupName, setGroupName] = useState('');
@@ -61,6 +61,7 @@ export default function ContextMenu({ x, y, node, groups, onClose, onDelete, onE
               <button className="ctx-item" onClick={() => setSub('desc')}>Add Description</button>
             )}
             <button className="ctx-item" onClick={() => setSub('group')}>Group</button>
+            <button className="ctx-item" onClick={() => { onSetGeneration(node.id); onClose(); }}>Set Generation</button>
           </>
         )}
 

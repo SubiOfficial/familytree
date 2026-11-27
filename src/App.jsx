@@ -3,6 +3,8 @@ import { IconSprite } from './components/Icons.jsx';
 import SingleCard from './components/SingleCard.jsx';
 import PartnerCard from './components/PartnerCard.jsx';
 import ContextMenu from './components/ContextMenu.jsx';
+import GenerationDialog from './components/GenerationDialog.jsx';
+import { formatGen } from './components/GenerationDialog.jsx';
 import { initialNodes } from './data.js';
 
 let nextId = 100;
@@ -21,11 +23,19 @@ function loadNodes() {
   return initialNodes;
 }
 
-function saveToServer(nodes) {
+function loadGenerations() {
+  try {
+    const saved = localStorage.getItem('familytree-generations');
+    if (saved) return JSON.parse(saved);
+  } catch {}
+  return [];
+}
+
+function saveToServer(nodes, generations) {
   fetch('/api/nodes', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(nodes),
+    body: JSON.stringify({ nodes, generations }),
   }).catch(() => {});
 }
 
@@ -67,13 +77,23 @@ function getDescendantIds(nodeId, nodes) {
 
 export default function App() {
   const [nodes, setNodes] = useState(loadNodes);
+  const [generations, setGenerations] = useState(loadGenerations);
+  const [genDialogNodeId, setGenDialogNodeId] = useState(null);
   const readyToSave = useRef(false);
 
   useEffect(() => {
     fetch('/api/nodes')
       .then(r => r.ok ? r.json() : null)
       .then(data => {
-        if (Array.isArray(data) && data.length) {
+        if (data && data.nodes && Array.isArray(data.nodes) && data.nodes.length) {
+          nextId = Math.max(...data.nodes.map(n => n.id)) + 1;
+          setNodes(data.nodes);
+          try { localStorage.setItem('familytree-nodes', JSON.stringify(data.nodes)); } catch {}
+          if (Array.isArray(data.generations)) {
+            setGenerations(data.generations);
+            try { localStorage.setItem('familytree-generations', JSON.stringify(data.generations)); } catch {}
+          }
+        } else if (Array.isArray(data) && data.length) {
           nextId = Math.max(...data.map(n => n.id)) + 1;
           setNodes(data);
           try { localStorage.setItem('familytree-nodes', JSON.stringify(data)); } catch {}
@@ -93,8 +113,9 @@ export default function App() {
   useEffect(() => {
     if (!readyToSave.current) return;
     try { localStorage.setItem('familytree-nodes', JSON.stringify(nodes)); } catch {}
-    saveToServer(nodes);
-  }, [nodes]);
+    try { localStorage.setItem('familytree-generations', JSON.stringify(generations)); } catch {}
+    saveToServer(nodes, generations);
+  }, [nodes, generations]);
 
   const update = (id, fn) => setNodes(ns => ns.map(n => (n.id === id ? fn(n) : n)));
 
@@ -331,8 +352,11 @@ export default function App() {
             const isFocused = focusedNodeId === node.id;
             const isBlurred = focusedNodeId && !isFocused;
             const nearEdges = nearOverlapEdges[node.id] || null;
-            const cardNode = { ...node, childCount, isFocused, isBlurred, nearEdges };
-            const cardBg = node.color || undefined;
+            const gen = node.generationId ? generations.find(g => g.id === node.generationId) : null;
+            const genColor = gen?.color || null;
+            const genLabel = gen ? `Gen ${formatGen(gen.number, gen.format)}` : null;
+            const cardNode = { ...node, childCount, isFocused, isBlurred, nearEdges, genLabel, genColor };
+            const cardBg = node.color || (genColor ? genColor + '25' : undefined);
             const rootColor = node.isRoot && node.color ? node.color : undefined;
             const edgeShadows = [];
             if (nearEdges) {
@@ -377,8 +401,33 @@ export default function App() {
           onSetColor={(id, color) => update(id, n => ({ ...n, color }))}
           onSetDescription={(id, description) => update(id, n => ({ ...n, description }))}
           onSetGroup={(id, group) => update(id, n => ({ ...n, group }))}
+          onSetGeneration={(id) => setGenDialogNodeId(id)}
         />
       )}
+      {genDialogNodeId && (() => {
+        const targetNode = nodes.find(n => n.id === genDialogNodeId);
+        if (!targetNode) return null;
+        return (
+          <GenerationDialog
+            node={targetNode}
+            generations={generations}
+            onClose={() => setGenDialogNodeId(null)}
+            onSave={(gen, isNew) => {
+              const updatedGens = isNew
+                ? [...generations, gen]
+                : generations.map(g => g.id === gen.id ? gen : g);
+              setGenerations(updatedGens);
+              const parentId = targetNode.parentId;
+              setNodes(ns => ns.map(n => {
+                if (n.id === targetNode.id || (parentId != null && n.parentId === parentId)) {
+                  return { ...n, generationId: gen.id };
+                }
+                return n;
+              }));
+            }}
+          />
+        );
+      })()}
     </>
   );
 }

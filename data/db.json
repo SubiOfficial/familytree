@@ -22,7 +22,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 1
     },
     {
       "id": 3,
@@ -31,8 +32,8 @@
       "isRoot": false,
       "parentId": 1,
       "collapsed": false,
-      "x": 500,
-      "y": 550,
+      "x": 502,
+      "y": 558,
       "people": [
         {
           "name": "Nalla Muthu",
@@ -45,7 +46,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 2
     },
     {
       "id": 5,
@@ -54,8 +56,8 @@
       "isRoot": false,
       "parentId": 3,
       "collapsed": false,
-      "x": 500,
-      "y": 1245,
+      "x": 502,
+      "y": 1253,
       "people": [
         {
           "name": "Vella Chamy",
@@ -68,7 +70,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 3
     },
     {
       "id": 7,
@@ -77,8 +80,8 @@
       "isRoot": false,
       "parentId": 3,
       "collapsed": false,
-      "x": 760,
-      "y": 800,
+      "x": 762,
+      "y": 808,
       "people": [
         {
           "name": "Sangaralingam(Sreram)",
@@ -87,7 +90,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 3
     },
     {
       "id": 9,
@@ -96,8 +100,8 @@
       "isRoot": false,
       "parentId": 3,
       "collapsed": false,
-      "x": 240,
-      "y": 800,
+      "x": 238,
+      "y": 812,
       "people": [
         {
           "name": "Chinna Samy",
@@ -106,7 +110,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 3
     },
     {
       "id": 11,
@@ -115,8 +120,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 1760,
-      "y": 2299,
+      "x": 1762,
+      "y": 2307,
       "people": [
         {
           "name": "Soma Sundharam",
@@ -125,7 +130,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 4
     },
     {
       "id": 13,
@@ -134,8 +140,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 3431,
-      "y": 2434,
+      "x": 3433,
+      "y": 2442,
       "people": [
         {
           "name": "Guru Backiyam",
@@ -144,7 +150,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 4
     },
     {
       "id": 15,
@@ -153,8 +160,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 42,
-      "y": 2392,
+      "x": 44,
+      "y": 2400,
       "people": [
         {
           "name": "Gnaniyar",
@@ -167,7 +174,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 4
     },
     {
       "id": 17,
@@ -176,8 +184,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 4843,
-      "y": 2365,
+      "x": 4845,
+      "y": 2373,
       "people": [
         {
           "name": "Pathirakali",
@@ -186,7 +194,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 4
     },
     {
       "id": 19,
@@ -195,8 +204,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": -1312,
-      "y": 2203,
+      "x": -1310,
+      "y": 2211,
       "people": [
         {
           "name": "Karuppa Gnaniyar",
@@ -205,7 +214,8 @@
       ],
       "color": "",
       "description": "he's dead before marriage to ate poison",
-      "group": ""
+      "group": "",
+      "generationId": 4
     },
     {
       "id": 21,
@@ -214,8 +224,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 6704,
-      "y": 2375,
+      "x": 6718,
+      "y": 2383,
       "people": [
         {
           "name": "Meenakshi",
@@ -224,7 +234,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 4
     },
     {
       "id": 23,
@@ -233,8 +244,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": -3282,
-      "y": 2085,
+      "x": -3280,
+      "y": 2093,
       "people": [
         {
           "name": "Karuppa Gnaniyar",
@@ -247,7 +258,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 4
     },
     {
       "id": 81,
@@ -256,8 +268,8 @@
       "isRoot": false,
       "parentId": 13,
       "collapsed": false,
-      "x": 3416,
-      "y": 2690,
+      "x": 3433,
+      "y": 2746,
       "people": [
         {
           "name": "Thamilarasan",
@@ -270,7 +282,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 83,
@@ -279,8 +292,8 @@
       "isRoot": false,
       "parentId": 13,
       "collapsed": false,
-      "x": 3838,
-      "y": 2687,
+      "x": 4014,
+      "y": 2740,
       "people": [
         {
           "name": "Kalai Vanan",
@@ -293,7 +306,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 85,
@@ -302,8 +316,8 @@
       "isRoot": false,
       "parentId": 13,
       "collapsed": false,
-      "x": 3070,
-      "y": 2687,
+      "x": 2790,
+      "y": 2739,
       "people": [
         {
           "name": "Muthu Ganeshan",
@@ -316,7 +330,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 25,
@@ -325,8 +340,8 @@
       "isRoot": false,
       "parentId": 15,
       "collapsed": false,
-      "x": -226,
-      "y": 2727,
+      "x": -224,
+      "y": 2735,
       "people": [
         {
           "name": "Karuppa Samy",
@@ -339,7 +354,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 27,
@@ -348,8 +364,8 @@
       "isRoot": false,
       "parentId": 15,
       "collapsed": false,
-      "x": 315,
-      "y": 2721,
+      "x": 317,
+      "y": 2729,
       "people": [
         {
           "name": "Nalla Muthu",
@@ -362,7 +378,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 29,
@@ -371,8 +388,8 @@
       "isRoot": false,
       "parentId": 15,
       "collapsed": false,
-      "x": -607,
-      "y": 2723,
+      "x": -605,
+      "y": 2731,
       "people": [
         {
           "name": "Vella Chamy",
@@ -385,7 +402,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 31,
@@ -394,8 +412,8 @@
       "isRoot": false,
       "parentId": 15,
       "collapsed": false,
-      "x": 873,
-      "y": 2724,
+      "x": 875,
+      "y": 2732,
       "people": [
         {
           "name": "Meenakshi",
@@ -408,7 +426,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 99,
@@ -417,8 +436,8 @@
       "isRoot": false,
       "parentId": 17,
       "collapsed": false,
-      "x": 4703,
-      "y": 2634,
+      "x": 4705,
+      "y": 2642,
       "people": [
         {
           "name": "Sundhara Lakshmi",
@@ -427,7 +446,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 101,
@@ -436,8 +456,8 @@
       "isRoot": false,
       "parentId": 17,
       "collapsed": false,
-      "x": 5152,
-      "y": 2655,
+      "x": 5154,
+      "y": 2663,
       "people": [
         {
           "name": "Tharmar",
@@ -446,7 +466,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 47,
@@ -455,8 +476,8 @@
       "isRoot": false,
       "parentId": 23,
       "collapsed": false,
-      "x": -3547,
-      "y": 2348,
+      "x": -3545,
+      "y": 2356,
       "people": [
         {
           "name": "Karuppa Gnaniyar",
@@ -469,7 +490,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 49,
@@ -478,8 +500,8 @@
       "isRoot": false,
       "parentId": 23,
       "collapsed": false,
-      "x": -3055,
-      "y": 2371,
+      "x": -3053,
+      "y": 2379,
       "people": [
         {
           "name": "Mariyammal",
@@ -492,7 +514,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 51,
@@ -501,8 +524,8 @@
       "isRoot": false,
       "parentId": 23,
       "collapsed": false,
-      "x": -3899,
-      "y": 2336,
+      "x": -3897,
+      "y": 2344,
       "people": [
         {
           "name": "Soman",
@@ -511,7 +534,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 63,
@@ -520,8 +544,8 @@
       "isRoot": false,
       "parentId": 23,
       "collapsed": false,
-      "x": -2449,
-      "y": 2355,
+      "x": -2447,
+      "y": 2363,
       "people": [
         {
           "name": "Meenakshi",
@@ -530,7 +554,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 5
     },
     {
       "id": 35,
@@ -539,8 +564,8 @@
       "isRoot": false,
       "parentId": 25,
       "collapsed": false,
-      "x": -340,
-      "y": 2982,
+      "x": -338,
+      "y": 2990,
       "people": [
         {
           "name": "Backiya Lakshmi",
@@ -549,7 +574,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 37,
@@ -558,8 +584,8 @@
       "isRoot": false,
       "parentId": 25,
       "collapsed": false,
-      "x": -100,
-      "y": 2982,
+      "x": -98,
+      "y": 2990,
       "people": [
         {
           "name": "Gnana Subramaniyam",
@@ -568,7 +594,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 39,
@@ -577,8 +604,8 @@
       "isRoot": false,
       "parentId": 27,
       "collapsed": false,
-      "x": 476,
-      "y": 2992,
+      "x": 478,
+      "y": 3000,
       "people": [
         {
           "name": "Backiya Nadhan",
@@ -591,7 +618,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 41,
@@ -600,8 +628,8 @@
       "isRoot": false,
       "parentId": 27,
       "collapsed": false,
-      "x": 172,
-      "y": 2990,
+      "x": 174,
+      "y": 2998,
       "people": [
         {
           "name": "Rama Lakshmi",
@@ -614,7 +642,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 33,
@@ -623,8 +652,8 @@
       "isRoot": false,
       "parentId": 29,
       "collapsed": false,
-      "x": -611,
-      "y": 2973,
+      "x": -609,
+      "y": 2981,
       "people": [
         {
           "name": "Backiya Lakshmi",
@@ -633,7 +662,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 43,
@@ -642,8 +672,8 @@
       "isRoot": false,
       "parentId": 31,
       "collapsed": false,
-      "x": 773,
-      "y": 2984,
+      "x": 775,
+      "y": 2992,
       "people": [
         {
           "name": "Muthu Arunachalam",
@@ -652,7 +682,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 45,
@@ -661,8 +692,8 @@
       "isRoot": false,
       "parentId": 31,
       "collapsed": false,
-      "x": 1013,
-      "y": 2983,
+      "x": 1015,
+      "y": 2991,
       "people": [
         {
           "name": "Anandha Saravanan",
@@ -671,7 +702,28 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
+    },
+    {
+      "id": 111,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 41,
+      "collapsed": false,
+      "x": 174,
+      "y": 3248,
+      "people": [
+        {
+          "name": "Sidarth Ilavelil",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": "",
+      "generationId": 7
     },
     {
       "id": 55,
@@ -680,8 +732,8 @@
       "isRoot": false,
       "parentId": 47,
       "collapsed": false,
-      "x": -3742,
-      "y": 2616,
+      "x": -3740,
+      "y": 2624,
       "people": [
         {
           "name": "Sathya",
@@ -694,7 +746,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 57,
@@ -703,8 +756,8 @@
       "isRoot": false,
       "parentId": 47,
       "collapsed": false,
-      "x": -3476,
-      "y": 2617,
+      "x": -3474,
+      "y": 2625,
       "people": [
         {
           "name": "Balu",
@@ -713,7 +766,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 59,
@@ -722,8 +776,8 @@
       "isRoot": false,
       "parentId": 49,
       "collapsed": false,
-      "x": -3170,
-      "y": 2617,
+      "x": -3168,
+      "y": 2625,
       "people": [
         {
           "name": "Seetha Lakshmi",
@@ -732,7 +786,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 61,
@@ -741,8 +796,8 @@
       "isRoot": false,
       "parentId": 49,
       "collapsed": false,
-      "x": -2930,
-      "y": 2620,
+      "x": -2928,
+      "y": 2628,
       "people": [
         {
           "name": "Kannan",
@@ -751,7 +806,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 77,
@@ -760,8 +816,8 @@
       "isRoot": false,
       "parentId": 55,
       "collapsed": false,
-      "x": -3865,
-      "y": 2883,
+      "x": -3863,
+      "y": 2891,
       "people": [
         {
           "name": "Sakthi",
@@ -770,7 +826,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 7
     },
     {
       "id": 79,
@@ -779,8 +836,8 @@
       "isRoot": false,
       "parentId": 55,
       "collapsed": false,
-      "x": -3625,
-      "y": 2882,
+      "x": -3623,
+      "y": 2890,
       "people": [
         {
           "name": "Guru Karthik",
@@ -789,7 +846,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 7
     },
     {
       "id": 65,
@@ -798,8 +856,8 @@
       "isRoot": false,
       "parentId": 63,
       "collapsed": false,
-      "x": -2564,
-      "y": 2608,
+      "x": -2562,
+      "y": 2616,
       "people": [
         {
           "name": "Pechi Ammal",
@@ -812,7 +870,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 67,
@@ -821,8 +880,8 @@
       "isRoot": false,
       "parentId": 63,
       "collapsed": false,
-      "x": -2167,
-      "y": 2603,
+      "x": -2165,
+      "y": 2611,
       "people": [
         {
           "name": "Mariyammal",
@@ -831,7 +890,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 69,
@@ -840,8 +900,8 @@
       "isRoot": false,
       "parentId": 65,
       "collapsed": false,
-      "x": -2694,
-      "y": 2877,
+      "x": -2692,
+      "y": 2885,
       "people": [
         {
           "name": "Vignesh",
@@ -850,7 +910,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 7
     },
     {
       "id": 71,
@@ -859,8 +920,8 @@
       "isRoot": false,
       "parentId": 65,
       "collapsed": false,
-      "x": -2454,
-      "y": 2873,
+      "x": -2452,
+      "y": 2881,
       "people": [
         {
           "name": "Kathir Vel",
@@ -869,7 +930,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 7
     },
     {
       "id": 73,
@@ -878,8 +940,8 @@
       "isRoot": false,
       "parentId": 67,
       "collapsed": false,
-      "x": -2214,
-      "y": 2870,
+      "x": -2212,
+      "y": 2878,
       "people": [
         {
           "name": "Santhiya",
@@ -888,7 +950,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 7
     },
     {
       "id": 75,
@@ -897,8 +960,8 @@
       "isRoot": false,
       "parentId": 67,
       "collapsed": false,
-      "x": -1974,
-      "y": 2873,
+      "x": -1972,
+      "y": 2881,
       "people": [
         {
           "name": "Mohana Prakash",
@@ -907,7 +970,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 7
     },
     {
       "id": 91,
@@ -916,8 +980,8 @@
       "isRoot": false,
       "parentId": 81,
       "collapsed": false,
-      "x": 3332,
-      "y": 2950,
+      "x": 3319,
+      "y": 3004,
       "people": [
         {
           "name": "Anbu Selvan",
@@ -926,7 +990,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 93,
@@ -935,8 +1000,8 @@
       "isRoot": false,
       "parentId": 81,
       "collapsed": false,
-      "x": 3572,
-      "y": 2948,
+      "x": 3559,
+      "y": 3007,
       "people": [
         {
           "name": "Nivethitha",
@@ -945,7 +1010,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 95,
@@ -954,8 +1020,8 @@
       "isRoot": false,
       "parentId": 83,
       "collapsed": false,
-      "x": 3812,
-      "y": 2946,
+      "x": 3880,
+      "y": 3003,
       "people": [
         {
           "name": "Gayathri",
@@ -964,7 +1030,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 97,
@@ -973,8 +1040,8 @@
       "isRoot": false,
       "parentId": 83,
       "collapsed": false,
-      "x": 4052,
-      "y": 2948,
+      "x": 4161,
+      "y": 3004,
       "people": [
         {
           "name": "Nithya",
@@ -983,26 +1050,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
-    },
-    {
-      "id": 87,
-      "type": "single",
-      "gender": "female",
-      "isRoot": false,
-      "parentId": 85,
-      "collapsed": false,
-      "x": 2852,
-      "y": 2950,
-      "people": [
-        {
-          "name": "Akshaya Kirthika",
-          "img": ""
-        }
-      ],
-      "color": "",
-      "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 89,
@@ -1011,8 +1060,8 @@
       "isRoot": false,
       "parentId": 85,
       "collapsed": false,
-      "x": 3092,
-      "y": 2951,
+      "x": 2951,
+      "y": 3009,
       "people": [
         {
           "name": "Thiyaga Bharaathi",
@@ -1021,7 +1070,48 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
+    },
+    {
+      "id": 113,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 85,
+      "collapsed": false,
+      "x": 2638,
+      "y": 3007,
+      "people": [
+        {
+          "name": "Akshaya Kirthika",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": "",
+      "generationId": 6
+    },
+    {
+      "id": 117,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 89,
+      "collapsed": false,
+      "x": 2951,
+      "y": 3259,
+      "people": [
+        {
+          "name": "Agayalan",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": "",
+      "generationId": 7
     },
     {
       "id": 103,
@@ -1030,8 +1120,8 @@
       "isRoot": false,
       "parentId": 99,
       "collapsed": false,
-      "x": 4592,
-      "y": 2926,
+      "x": 4594,
+      "y": 2934,
       "people": [
         {
           "name": "Uma",
@@ -1040,7 +1130,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 105,
@@ -1049,8 +1140,8 @@
       "isRoot": false,
       "parentId": 99,
       "collapsed": false,
-      "x": 4832,
-      "y": 2922,
+      "x": 4834,
+      "y": 2930,
       "people": [
         {
           "name": "Swetha",
@@ -1059,7 +1150,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 107,
@@ -1068,8 +1160,8 @@
       "isRoot": false,
       "parentId": 101,
       "collapsed": false,
-      "x": 5072,
-      "y": 2919,
+      "x": 5074,
+      "y": 2927,
       "people": [
         {
           "name": "Sakthi Vel",
@@ -1078,7 +1170,8 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
     },
     {
       "id": 109,
@@ -1087,8 +1180,8 @@
       "isRoot": false,
       "parentId": 101,
       "collapsed": false,
-      "x": 5312,
-      "y": 2918,
+      "x": 5314,
+      "y": 2926,
       "people": [
         {
           "name": "Anandha Lakshmi",
@@ -1097,7 +1190,72 @@
       ],
       "color": "",
       "description": "",
-      "group": ""
+      "group": "",
+      "generationId": 6
+    },
+    {
+      "id": 115,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 113,
+      "collapsed": false,
+      "x": 2638,
+      "y": 3257,
+      "people": [
+        {
+          "name": "Seyon",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": "",
+      "generationId": 7
+    }
+  ],
+  "generations": [
+    {
+      "id": 1,
+      "number": 1,
+      "format": "numeric",
+      "color": "#f0e6d3"
+    },
+    {
+      "id": 2,
+      "number": 2,
+      "format": "numeric",
+      "color": "#e8f4e8"
+    },
+    {
+      "id": 3,
+      "number": 3,
+      "format": "numeric",
+      "color": "#e6eef8"
+    },
+    {
+      "id": 4,
+      "number": 4,
+      "format": "numeric",
+      "color": "#fef3e2"
+    },
+    {
+      "id": 5,
+      "number": 5,
+      "format": "numeric",
+      "color": "#f3e8f9"
+    },
+    {
+      "id": 6,
+      "number": 6,
+      "format": "numeric",
+      "color": "#e8f6f3"
+    },
+    {
+      "id": 7,
+      "number": 7,
+      "format": "numeric",
+      "color": "#fce8e8"
     }
   ]
 }

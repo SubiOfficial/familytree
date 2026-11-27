@@ -32,6 +32,7 @@ export default function PartnerCard({ node, style, onUpdatePerson, onUpdateGende
       </div>
       {node.isRoot && <span className="root-badge">Root node</span>}
       {node.group && <span className="group-badge">{node.group}</span>}
+      {node.genLabel && <span className="gen-badge" style={{ background: node.genColor, borderColor: node.genColor }}>{node.genLabel}</span>}
       <div className="people paired">
         {node.people.map((p, i) => (
           <Fragment key={i}>

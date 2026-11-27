@@ -26,18 +26,19 @@ function nodesApiPlugin() {
           const db = readDb();
           if (db && Array.isArray(db.nodes)) {
             res.setHeader('Content-Type', 'application/json');
-            res.end(JSON.stringify(db.nodes));
+            res.end(JSON.stringify({ nodes: db.nodes, generations: db.generations || [] }));
           } else {
             res.statusCode = 404;
-            res.end('[]');
+            res.end('{"nodes":[],"generations":[]}');
           }
         } else if (req.method === 'POST') {
           let body = '';
           req.on('data', chunk => { body += chunk; });
           req.on('end', () => {
             try {
-              const nodes = JSON.parse(body);
-              if (!Array.isArray(nodes)) throw new Error('not array');
+              const payload = JSON.parse(body);
+              const nodes = payload.nodes || (Array.isArray(payload) ? payload : []);
+              const generations = payload.generations || [];
               const sorted = [...nodes].sort((a, b) => {
                 if (a.isRoot && !b.isRoot) return -1;
                 if (!a.isRoot && b.isRoot) return 1;
@@ -46,6 +47,7 @@ function nodesApiPlugin() {
               });
               const db = readDb() || { tree: { name: 'Family Tree', createdAt: new Date().toISOString().slice(0, 10) } };
               db.nodes = sorted;
+              db.generations = generations;
               db.tree.updatedAt = new Date().toISOString().slice(0, 10);
               writeDb(db);
               res.setHeader('Content-Type', 'application/json');

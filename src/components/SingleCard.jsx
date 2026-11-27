@@ -42,6 +42,7 @@ export default function SingleCard({ node, style, onUpdatePerson, onUpdateGender
       </div>
       {node.isRoot && <span className="root-badge">Root node</span>}
       {node.group && <span className="group-badge">{node.group}</span>}
+      {node.genLabel && <span className="gen-badge" style={{ background: node.genColor, borderColor: node.genColor }}>{node.genLabel}</span>}
       <div className="people" ref={nameRef}>
         <Person
           nodeId={node.id}
