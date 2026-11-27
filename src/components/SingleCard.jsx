@@ -1,6 +1,7 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Person from './Person.jsx';
 import GenderBadge from './GenderBadge.jsx';
+import DescDisplay from './DescDisplay.jsx';
 
 export default function SingleCard({ node, style, onUpdatePerson, onUpdateGender, onDelete, onAddPartner, onAddChild, onToggleBranch, onDragStart, onContextMenu, editingNodeId, onEditDone, focusedNodeId, onFocusNode }) {
   const person = node.people[0];
@@ -55,12 +56,8 @@ export default function SingleCard({ node, style, onUpdatePerson, onUpdateGender
       </div>
       {node.isFocused && node.description && (() => {
         const d = typeof node.description === 'object' ? node.description : { en: node.description, ta: '' };
-        return (d.en || d.ta) ? (
-          <div className="card-desc-expanded">
-            {d.en && <div>{d.en}</div>}
-            {d.ta && <div className="card-desc-ta">{d.ta}</div>}
-          </div>
-        ) : null;
+        if (!d.en && !d.ta) return null;
+        return <DescDisplay desc={d} />;
       })()}
       {node.isFocused && node.group && (
         <div className="card-details">

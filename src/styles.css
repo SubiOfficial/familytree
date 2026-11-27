@@ -807,11 +807,35 @@ body.panning * {
   transition: box-shadow .2s;
 }
 
-.card-desc-ta {
-  font-size: 11px;
-  color: #6b5c4c;
-  margin-top: 3px;
-  opacity: .8;
+.desc-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 6px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.desc-tab {
+  padding: 2px 10px;
+  border: none;
+  background: var(--bg);
+  color: var(--muted);
+  font-size: 10px;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.desc-tab.active {
+  background: #4338ca;
+  color: #fff;
+}
+
+.desc-text {
+  font-size: 12px;
+  line-height: 1.4;
 }
 
 .card-desc-expanded {
