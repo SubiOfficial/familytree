@@ -1,0 +1,1103 @@
+{
+  "tree": {
+    "name": "Karuppa Gnaniyar Family Tree",
+    "createdAt": "2026-11-27",
+    "updatedAt": "2026-11-27"
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "type": "single",
+      "gender": "unknown",
+      "isRoot": true,
+      "parentId": null,
+      "collapsed": false,
+      "x": 500,
+      "y": 300,
+      "people": [
+        {
+          "name": "Karuppa Gnaniyar",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 3,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 1,
+      "collapsed": false,
+      "x": 500,
+      "y": 550,
+      "people": [
+        {
+          "name": "Nalla Muthu",
+          "img": ""
+        },
+        {
+          "name": "Pathirakali",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 5,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 3,
+      "collapsed": false,
+      "x": 500,
+      "y": 1245,
+      "people": [
+        {
+          "name": "Vella Chamy",
+          "img": ""
+        },
+        {
+          "name": "Meenakshi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 3,
+      "collapsed": false,
+      "x": 760,
+      "y": 800,
+      "people": [
+        {
+          "name": "Sangaralingam(Sreram)",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 3,
+      "collapsed": false,
+      "x": 240,
+      "y": 800,
+      "people": [
+        {
+          "name": "Chinna Samy",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 5,
+      "collapsed": false,
+      "x": 1760,
+      "y": 2299,
+      "people": [
+        {
+          "name": "Soma Sundharam",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 5,
+      "collapsed": false,
+      "x": 3431,
+      "y": 2434,
+      "people": [
+        {
+          "name": "Guru Backiyam",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 15,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 5,
+      "collapsed": false,
+      "x": 42,
+      "y": 2392,
+      "people": [
+        {
+          "name": "Gnaniyar",
+          "img": ""
+        },
+        {
+          "name": "Backiyam",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 5,
+      "collapsed": false,
+      "x": 4843,
+      "y": 2365,
+      "people": [
+        {
+          "name": "Pathirakali",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 5,
+      "collapsed": false,
+      "x": -1312,
+      "y": 2203,
+      "people": [
+        {
+          "name": "Karuppa Gnaniyar",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "he's dead before marriage to ate poison",
+      "group": ""
+    },
+    {
+      "id": 21,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 5,
+      "collapsed": false,
+      "x": 6704,
+      "y": 2375,
+      "people": [
+        {
+          "name": "Meenakshi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 23,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 5,
+      "collapsed": false,
+      "x": -3282,
+      "y": 2085,
+      "people": [
+        {
+          "name": "Karuppa Gnaniyar",
+          "img": ""
+        },
+        {
+          "name": "Mariyammal",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 81,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 13,
+      "collapsed": false,
+      "x": 3416,
+      "y": 2690,
+      "people": [
+        {
+          "name": "Thamilarasan",
+          "img": ""
+        },
+        {
+          "name": "Lakshmi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 83,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 13,
+      "collapsed": false,
+      "x": 3838,
+      "y": 2687,
+      "people": [
+        {
+          "name": "Kalai Vanan",
+          "img": ""
+        },
+        {
+          "name": "Karthika",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 85,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 13,
+      "collapsed": false,
+      "x": 3070,
+      "y": 2687,
+      "people": [
+        {
+          "name": "Muthu Ganeshan",
+          "img": ""
+        },
+        {
+          "name": "Karpagam",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 25,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 15,
+      "collapsed": false,
+      "x": -226,
+      "y": 2727,
+      "people": [
+        {
+          "name": "Karuppa Samy",
+          "img": ""
+        },
+        {
+          "name": "Rama Lakshami",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 27,
+      "type": "partner",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 15,
+      "collapsed": false,
+      "x": 315,
+      "y": 2721,
+      "people": [
+        {
+          "name": "Nalla Muthu",
+          "img": ""
+        },
+        {
+          "name": "Palani Samy",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 29,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 15,
+      "collapsed": false,
+      "x": -607,
+      "y": 2723,
+      "people": [
+        {
+          "name": "Vella Chamy",
+          "img": ""
+        },
+        {
+          "name": "Muthumari",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 31,
+      "type": "partner",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 15,
+      "collapsed": false,
+      "x": 873,
+      "y": 2724,
+      "people": [
+        {
+          "name": "Meenakshi",
+          "img": ""
+        },
+        {
+          "name": "Sundharamoorthi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 99,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 17,
+      "collapsed": false,
+      "x": 4703,
+      "y": 2634,
+      "people": [
+        {
+          "name": "Sundhara Lakshmi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 101,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 17,
+      "collapsed": false,
+      "x": 5152,
+      "y": 2655,
+      "people": [
+        {
+          "name": "Tharmar",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 47,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 23,
+      "collapsed": false,
+      "x": -3547,
+      "y": 2348,
+      "people": [
+        {
+          "name": "Karuppa Gnaniyar",
+          "img": ""
+        },
+        {
+          "name": "Raja Anandham",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 49,
+      "type": "partner",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 23,
+      "collapsed": false,
+      "x": -3055,
+      "y": 2371,
+      "people": [
+        {
+          "name": "Mariyammal",
+          "img": ""
+        },
+        {
+          "name": "Ilango",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 51,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 23,
+      "collapsed": false,
+      "x": -3899,
+      "y": 2336,
+      "people": [
+        {
+          "name": "Soman",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 63,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 23,
+      "collapsed": false,
+      "x": -2449,
+      "y": 2355,
+      "people": [
+        {
+          "name": "Meenakshi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 35,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 25,
+      "collapsed": false,
+      "x": -340,
+      "y": 2982,
+      "people": [
+        {
+          "name": "Backiya Lakshmi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 37,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 25,
+      "collapsed": false,
+      "x": -100,
+      "y": 2982,
+      "people": [
+        {
+          "name": "Gnana Subramaniyam",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 39,
+      "type": "partner",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 27,
+      "collapsed": false,
+      "x": 476,
+      "y": 2992,
+      "people": [
+        {
+          "name": "Backiya Nadhan",
+          "img": ""
+        },
+        {
+          "name": "Singa Rani",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 41,
+      "type": "partner",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 27,
+      "collapsed": false,
+      "x": 172,
+      "y": 2990,
+      "people": [
+        {
+          "name": "Rama Lakshmi",
+          "img": ""
+        },
+        {
+          "name": "Singara Velan",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 33,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 29,
+      "collapsed": false,
+      "x": -611,
+      "y": 2973,
+      "people": [
+        {
+          "name": "Backiya Lakshmi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 43,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 31,
+      "collapsed": false,
+      "x": 773,
+      "y": 2984,
+      "people": [
+        {
+          "name": "Muthu Arunachalam",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 45,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 31,
+      "collapsed": false,
+      "x": 1013,
+      "y": 2983,
+      "people": [
+        {
+          "name": "Anandha Saravanan",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 55,
+      "type": "partner",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 47,
+      "collapsed": false,
+      "x": -3742,
+      "y": 2616,
+      "people": [
+        {
+          "name": "Sathya",
+          "img": ""
+        },
+        {
+          "name": "Vairam",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 57,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 47,
+      "collapsed": false,
+      "x": -3476,
+      "y": 2617,
+      "people": [
+        {
+          "name": "Balu",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 59,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 49,
+      "collapsed": false,
+      "x": -3170,
+      "y": 2617,
+      "people": [
+        {
+          "name": "Seetha Lakshmi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 61,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 49,
+      "collapsed": false,
+      "x": -2930,
+      "y": 2620,
+      "people": [
+        {
+          "name": "Kannan",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 77,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 55,
+      "collapsed": false,
+      "x": -3865,
+      "y": 2883,
+      "people": [
+        {
+          "name": "Sakthi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 79,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 55,
+      "collapsed": false,
+      "x": -3625,
+      "y": 2882,
+      "people": [
+        {
+          "name": "Guru Karthik",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 65,
+      "type": "partner",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 63,
+      "collapsed": false,
+      "x": -2564,
+      "y": 2608,
+      "people": [
+        {
+          "name": "Pechi Ammal",
+          "img": ""
+        },
+        {
+          "name": "Ganeshan",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 67,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 63,
+      "collapsed": false,
+      "x": -2167,
+      "y": 2603,
+      "people": [
+        {
+          "name": "Mariyammal",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 65,
+      "collapsed": false,
+      "x": -2694,
+      "y": 2877,
+      "people": [
+        {
+          "name": "Vignesh",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 71,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 65,
+      "collapsed": false,
+      "x": -2454,
+      "y": 2873,
+      "people": [
+        {
+          "name": "Kathir Vel",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 67,
+      "collapsed": false,
+      "x": -2214,
+      "y": 2870,
+      "people": [
+        {
+          "name": "Santhiya",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 75,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 67,
+      "collapsed": false,
+      "x": -1974,
+      "y": 2873,
+      "people": [
+        {
+          "name": "Mohana Prakash",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 91,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 81,
+      "collapsed": false,
+      "x": 3332,
+      "y": 2950,
+      "people": [
+        {
+          "name": "Anbu Selvan",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 93,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 81,
+      "collapsed": false,
+      "x": 3572,
+      "y": 2948,
+      "people": [
+        {
+          "name": "Nivethitha",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 95,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 83,
+      "collapsed": false,
+      "x": 3812,
+      "y": 2946,
+      "people": [
+        {
+          "name": "Gayathri",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 97,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 83,
+      "collapsed": false,
+      "x": 4052,
+      "y": 2948,
+      "people": [
+        {
+          "name": "Nithya",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 87,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 85,
+      "collapsed": false,
+      "x": 2852,
+      "y": 2950,
+      "people": [
+        {
+          "name": "Akshaya Kirthika",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 89,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 85,
+      "collapsed": false,
+      "x": 3092,
+      "y": 2951,
+      "people": [
+        {
+          "name": "Thiyaga Bharaathi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 103,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 99,
+      "collapsed": false,
+      "x": 4592,
+      "y": 2926,
+      "people": [
+        {
+          "name": "Uma",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 105,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 99,
+      "collapsed": false,
+      "x": 4832,
+      "y": 2922,
+      "people": [
+        {
+          "name": "Swetha",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 107,
+      "type": "single",
+      "gender": "male",
+      "isRoot": false,
+      "parentId": 101,
+      "collapsed": false,
+      "x": 5072,
+      "y": 2919,
+      "people": [
+        {
+          "name": "Sakthi Vel",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    },
+    {
+      "id": 109,
+      "type": "single",
+      "gender": "female",
+      "isRoot": false,
+      "parentId": 101,
+      "collapsed": false,
+      "x": 5312,
+      "y": 2918,
+      "people": [
+        {
+          "name": "Anandha Lakshmi",
+          "img": ""
+        }
+      ],
+      "color": "",
+      "description": "",
+      "group": ""
+    }
+  ]
+}
