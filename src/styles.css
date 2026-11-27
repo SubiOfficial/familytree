@@ -789,8 +789,11 @@ body.panning * {
 
 /* ---------- Focus / blur ---------- */
 .focus-overlay {
-  position: fixed;
-  inset: 0;
+  position: absolute;
+  top: -50000px;
+  left: -50000px;
+  width: 200000px;
+  height: 200000px;
   background: rgba(0, 0, 0, .06);
   z-index: 5;
 }

@@ -349,7 +349,6 @@ export default function App() {
         style={{ backgroundPosition: `${pan.x}px ${pan.y}px` }}
         onMouseDown={handleCanvasMouseDown}
       >
-        {focusedNodeId && <div className="focus-overlay" onMouseDown={() => setFocusedNodeId(null)} />}
         <div className="world" style={{ transform: `translate(${pan.x}px, ${pan.y}px)` }}>
           <svg className="connectors" width="1" height="1">
             {lines.map((line, i) => {
