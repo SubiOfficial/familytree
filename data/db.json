@@ -21,7 +21,10 @@
         }
       ],
       "color": "",
-      "description": "",
+      "description": {
+        "en": "This is Karuppa Gnaniyar, who originally belonged to Rajapalayam. He adopted Nallamuthu Chinna Panadi, who was from Pudhupatti. Although Nallamuthu Chinna Panadi was originally from Pudhupatti, it was Karuppa Gnaniyar who adopted him and became the reason our family lineage continued through this ancestral connection. Therefore, the Karuppa Gnaniyar Temple is our ancestral family deity temple (Kuladeivam).",
+        "ta": "இவர்தான் கருப்ப ஞானியார். இவர் ராஜபாளையத்தைச் சேர்ந்தவர். ஆனால், புதுப்பட்டி ஊரைச் சேர்ந்த நல்லமுத்து சின்னப் பணாடி என்பவரைத் தத்தெடுத்தார். நல்லமுத்து சின்னப் பணாடி புதுப்பட்டியைச் சேர்ந்தவராக இருந்தாலும், அவரைத் தத்தெடுத்து நமது குலத்தின் தொடர்ச்சிக்குக் காரணமாக இருந்தவர் கருப்ப ஞானியார்தான். இவரின் வழியாகத்தான் நமது குலம் தொடர்ந்து வருகிறது. எனவே, கருப்ப ஞானியார் கோவில் நமது குலதெய்வக் கோவிலாக விளங்குகிறது."
+      },
       "group": "",
       "generationId": 1
     },
@@ -32,8 +35,8 @@
       "isRoot": false,
       "parentId": 1,
       "collapsed": false,
-      "x": 502,
-      "y": 558,
+      "x": 500,
+      "y": 559,
       "people": [
         {
           "name": "Nalla Muthu",
@@ -56,8 +59,8 @@
       "isRoot": false,
       "parentId": 3,
       "collapsed": false,
-      "x": 502,
-      "y": 1253,
+      "x": 500,
+      "y": 1254,
       "people": [
         {
           "name": "Vella Chamy",
@@ -80,8 +83,8 @@
       "isRoot": false,
       "parentId": 3,
       "collapsed": false,
-      "x": 762,
-      "y": 808,
+      "x": 760,
+      "y": 809,
       "people": [
         {
           "name": "Sangaralingam(Sreram)",
@@ -100,8 +103,8 @@
       "isRoot": false,
       "parentId": 3,
       "collapsed": false,
-      "x": 238,
-      "y": 812,
+      "x": 236,
+      "y": 813,
       "people": [
         {
           "name": "Chinna Samy",
@@ -120,8 +123,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 1762,
-      "y": 2307,
+      "x": 1760,
+      "y": 2308,
       "people": [
         {
           "name": "Soma Sundharam",
@@ -140,8 +143,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 3433,
-      "y": 2442,
+      "x": 3431,
+      "y": 2443,
       "people": [
         {
           "name": "Guru Backiyam",
@@ -160,8 +163,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 44,
-      "y": 2400,
+      "x": 42,
+      "y": 2401,
       "people": [
         {
           "name": "Gnaniyar",
@@ -184,8 +187,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 4845,
-      "y": 2373,
+      "x": 4843,
+      "y": 2374,
       "people": [
         {
           "name": "Pathirakali",
@@ -204,8 +207,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": -1310,
-      "y": 2211,
+      "x": -1312,
+      "y": 2212,
       "people": [
         {
           "name": "Karuppa Gnaniyar",
@@ -224,8 +227,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": 6718,
-      "y": 2383,
+      "x": 6716,
+      "y": 2384,
       "people": [
         {
           "name": "Meenakshi",
@@ -244,8 +247,8 @@
       "isRoot": false,
       "parentId": 5,
       "collapsed": false,
-      "x": -3280,
-      "y": 2093,
+      "x": -3282,
+      "y": 2094,
       "people": [
         {
           "name": "Karuppa Gnaniyar",
@@ -268,8 +271,8 @@
       "isRoot": false,
       "parentId": 13,
       "collapsed": false,
-      "x": 3433,
-      "y": 2746,
+      "x": 3431,
+      "y": 2747,
       "people": [
         {
           "name": "Thamilarasan",
@@ -292,8 +295,8 @@
       "isRoot": false,
       "parentId": 13,
       "collapsed": false,
-      "x": 4014,
-      "y": 2740,
+      "x": 4012,
+      "y": 2741,
       "people": [
         {
           "name": "Kalai Vanan",
@@ -316,8 +319,8 @@
       "isRoot": false,
       "parentId": 13,
       "collapsed": false,
-      "x": 2790,
-      "y": 2739,
+      "x": 2788,
+      "y": 2740,
       "people": [
         {
           "name": "Muthu Ganeshan",
@@ -340,8 +343,8 @@
       "isRoot": false,
       "parentId": 15,
       "collapsed": false,
-      "x": -224,
-      "y": 2735,
+      "x": -226,
+      "y": 2736,
       "people": [
         {
           "name": "Karuppa Samy",
@@ -364,8 +367,8 @@
       "isRoot": false,
       "parentId": 15,
       "collapsed": false,
-      "x": 317,
-      "y": 2729,
+      "x": 315,
+      "y": 2730,
       "people": [
         {
           "name": "Nalla Muthu",
@@ -388,8 +391,8 @@
       "isRoot": false,
       "parentId": 15,
       "collapsed": false,
-      "x": -605,
-      "y": 2731,
+      "x": -607,
+      "y": 2732,
       "people": [
         {
           "name": "Vella Chamy",
@@ -412,8 +415,8 @@
       "isRoot": false,
       "parentId": 15,
       "collapsed": false,
-      "x": 875,
-      "y": 2732,
+      "x": 873,
+      "y": 2733,
       "people": [
         {
           "name": "Meenakshi",
@@ -436,8 +439,8 @@
       "isRoot": false,
       "parentId": 17,
       "collapsed": false,
-      "x": 4705,
-      "y": 2642,
+      "x": 4703,
+      "y": 2643,
       "people": [
         {
           "name": "Sundhara Lakshmi",
@@ -456,8 +459,8 @@
       "isRoot": false,
       "parentId": 17,
       "collapsed": false,
-      "x": 5154,
-      "y": 2663,
+      "x": 5152,
+      "y": 2664,
       "people": [
         {
           "name": "Tharmar",
@@ -476,8 +479,8 @@
       "isRoot": false,
       "parentId": 23,
       "collapsed": false,
-      "x": -3545,
-      "y": 2356,
+      "x": -3547,
+      "y": 2357,
       "people": [
         {
           "name": "Karuppa Gnaniyar",
@@ -500,8 +503,8 @@
       "isRoot": false,
       "parentId": 23,
       "collapsed": false,
-      "x": -3053,
-      "y": 2379,
+      "x": -3055,
+      "y": 2380,
       "people": [
         {
           "name": "Mariyammal",
@@ -524,8 +527,8 @@
       "isRoot": false,
       "parentId": 23,
       "collapsed": false,
-      "x": -3897,
-      "y": 2344,
+      "x": -3899,
+      "y": 2345,
       "people": [
         {
           "name": "Soman",
@@ -544,8 +547,8 @@
       "isRoot": false,
       "parentId": 23,
       "collapsed": false,
-      "x": -2447,
-      "y": 2363,
+      "x": -2449,
+      "y": 2364,
       "people": [
         {
           "name": "Meenakshi",
@@ -564,8 +567,8 @@
       "isRoot": false,
       "parentId": 25,
       "collapsed": false,
-      "x": -338,
-      "y": 2990,
+      "x": -340,
+      "y": 2991,
       "people": [
         {
           "name": "Backiya Lakshmi",
@@ -584,8 +587,8 @@
       "isRoot": false,
       "parentId": 25,
       "collapsed": false,
-      "x": -98,
-      "y": 2990,
+      "x": -100,
+      "y": 2991,
       "people": [
         {
           "name": "Gnana Subramaniyam",
@@ -604,8 +607,8 @@
       "isRoot": false,
       "parentId": 27,
       "collapsed": false,
-      "x": 478,
-      "y": 3000,
+      "x": 476,
+      "y": 3001,
       "people": [
         {
           "name": "Backiya Nadhan",
@@ -628,8 +631,8 @@
       "isRoot": false,
       "parentId": 27,
       "collapsed": false,
-      "x": 174,
-      "y": 2998,
+      "x": 172,
+      "y": 2999,
       "people": [
         {
           "name": "Rama Lakshmi",
@@ -652,8 +655,8 @@
       "isRoot": false,
       "parentId": 29,
       "collapsed": false,
-      "x": -609,
-      "y": 2981,
+      "x": -611,
+      "y": 2982,
       "people": [
         {
           "name": "Backiya Lakshmi",
@@ -672,8 +675,8 @@
       "isRoot": false,
       "parentId": 31,
       "collapsed": false,
-      "x": 775,
-      "y": 2992,
+      "x": 773,
+      "y": 2993,
       "people": [
         {
           "name": "Muthu Arunachalam",
@@ -692,8 +695,8 @@
       "isRoot": false,
       "parentId": 31,
       "collapsed": false,
-      "x": 1015,
-      "y": 2991,
+      "x": 1013,
+      "y": 2992,
       "people": [
         {
           "name": "Anandha Saravanan",
@@ -712,8 +715,8 @@
       "isRoot": false,
       "parentId": 41,
       "collapsed": false,
-      "x": 174,
-      "y": 3248,
+      "x": 172,
+      "y": 3249,
       "people": [
         {
           "name": "Sidarth Ilavelil",
@@ -732,8 +735,8 @@
       "isRoot": false,
       "parentId": 47,
       "collapsed": false,
-      "x": -3740,
-      "y": 2624,
+      "x": -3742,
+      "y": 2625,
       "people": [
         {
           "name": "Sathya",
@@ -756,8 +759,8 @@
       "isRoot": false,
       "parentId": 47,
       "collapsed": false,
-      "x": -3474,
-      "y": 2625,
+      "x": -3476,
+      "y": 2626,
       "people": [
         {
           "name": "Balu",
@@ -776,8 +779,8 @@
       "isRoot": false,
       "parentId": 49,
       "collapsed": false,
-      "x": -3168,
-      "y": 2625,
+      "x": -3170,
+      "y": 2626,
       "people": [
         {
           "name": "Seetha Lakshmi",
@@ -796,8 +799,8 @@
       "isRoot": false,
       "parentId": 49,
       "collapsed": false,
-      "x": -2928,
-      "y": 2628,
+      "x": -2930,
+      "y": 2629,
       "people": [
         {
           "name": "Kannan",
@@ -816,8 +819,8 @@
       "isRoot": false,
       "parentId": 55,
       "collapsed": false,
-      "x": -3863,
-      "y": 2891,
+      "x": -3865,
+      "y": 2892,
       "people": [
         {
           "name": "Sakthi",
@@ -836,8 +839,8 @@
       "isRoot": false,
       "parentId": 55,
       "collapsed": false,
-      "x": -3623,
-      "y": 2890,
+      "x": -3625,
+      "y": 2891,
       "people": [
         {
           "name": "Guru Karthik",
@@ -856,8 +859,8 @@
       "isRoot": false,
       "parentId": 63,
       "collapsed": false,
-      "x": -2562,
-      "y": 2616,
+      "x": -2564,
+      "y": 2617,
       "people": [
         {
           "name": "Pechi Ammal",
@@ -880,8 +883,8 @@
       "isRoot": false,
       "parentId": 63,
       "collapsed": false,
-      "x": -2165,
-      "y": 2611,
+      "x": -2167,
+      "y": 2612,
       "people": [
         {
           "name": "Mariyammal",
@@ -900,8 +903,8 @@
       "isRoot": false,
       "parentId": 65,
       "collapsed": false,
-      "x": -2692,
-      "y": 2885,
+      "x": -2694,
+      "y": 2886,
       "people": [
         {
           "name": "Vignesh",
@@ -920,8 +923,8 @@
       "isRoot": false,
       "parentId": 65,
       "collapsed": false,
-      "x": -2452,
-      "y": 2881,
+      "x": -2454,
+      "y": 2882,
       "people": [
         {
           "name": "Kathir Vel",
@@ -940,8 +943,8 @@
       "isRoot": false,
       "parentId": 67,
       "collapsed": false,
-      "x": -2212,
-      "y": 2878,
+      "x": -2214,
+      "y": 2879,
       "people": [
         {
           "name": "Santhiya",
@@ -960,8 +963,8 @@
       "isRoot": false,
       "parentId": 67,
       "collapsed": false,
-      "x": -1972,
-      "y": 2881,
+      "x": -1974,
+      "y": 2882,
       "people": [
         {
           "name": "Mohana Prakash",
@@ -980,8 +983,8 @@
       "isRoot": false,
       "parentId": 81,
       "collapsed": false,
-      "x": 3319,
-      "y": 3004,
+      "x": 3317,
+      "y": 3005,
       "people": [
         {
           "name": "Anbu Selvan",
@@ -1000,8 +1003,8 @@
       "isRoot": false,
       "parentId": 81,
       "collapsed": false,
-      "x": 3559,
-      "y": 3007,
+      "x": 3557,
+      "y": 3008,
       "people": [
         {
           "name": "Nivethitha",
@@ -1020,8 +1023,8 @@
       "isRoot": false,
       "parentId": 83,
       "collapsed": false,
-      "x": 3880,
-      "y": 3003,
+      "x": 3878,
+      "y": 3004,
       "people": [
         {
           "name": "Gayathri",
@@ -1040,8 +1043,8 @@
       "isRoot": false,
       "parentId": 83,
       "collapsed": false,
-      "x": 4161,
-      "y": 3004,
+      "x": 4159,
+      "y": 3005,
       "people": [
         {
           "name": "Nithya",
@@ -1060,8 +1063,8 @@
       "isRoot": false,
       "parentId": 85,
       "collapsed": false,
-      "x": 2951,
-      "y": 3009,
+      "x": 2949,
+      "y": 3010,
       "people": [
         {
           "name": "Thiyaga Bharaathi",
@@ -1080,8 +1083,8 @@
       "isRoot": false,
       "parentId": 85,
       "collapsed": false,
-      "x": 2638,
-      "y": 3007,
+      "x": 2636,
+      "y": 3008,
       "people": [
         {
           "name": "Akshaya Kirthika",
@@ -1100,8 +1103,8 @@
       "isRoot": false,
       "parentId": 89,
       "collapsed": false,
-      "x": 2951,
-      "y": 3259,
+      "x": 2949,
+      "y": 3260,
       "people": [
         {
           "name": "Agayalan",
@@ -1120,8 +1123,8 @@
       "isRoot": false,
       "parentId": 99,
       "collapsed": false,
-      "x": 4594,
-      "y": 2934,
+      "x": 4592,
+      "y": 2935,
       "people": [
         {
           "name": "Uma",
@@ -1140,8 +1143,8 @@
       "isRoot": false,
       "parentId": 99,
       "collapsed": false,
-      "x": 4834,
-      "y": 2930,
+      "x": 4832,
+      "y": 2931,
       "people": [
         {
           "name": "Swetha",
@@ -1160,8 +1163,8 @@
       "isRoot": false,
       "parentId": 101,
       "collapsed": false,
-      "x": 5074,
-      "y": 2927,
+      "x": 5072,
+      "y": 2928,
       "people": [
         {
           "name": "Sakthi Vel",
@@ -1180,8 +1183,8 @@
       "isRoot": false,
       "parentId": 101,
       "collapsed": false,
-      "x": 5314,
-      "y": 2926,
+      "x": 5312,
+      "y": 2927,
       "people": [
         {
           "name": "Anandha Lakshmi",
@@ -1200,8 +1203,8 @@
       "isRoot": false,
       "parentId": 113,
       "collapsed": false,
-      "x": 2638,
-      "y": 3257,
+      "x": 2636,
+      "y": 3258,
       "people": [
         {
           "name": "Seyon",
